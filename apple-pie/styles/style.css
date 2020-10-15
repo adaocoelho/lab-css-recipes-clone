@@ -1,0 +1,79 @@
+
+
+@import url(@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans";
+  size: 12px;
+  line height: 3.5em;
+  weight: 300;
+}
+
+.header
+
+
+
+h1, h2 {
+  font-family: "Noto Sans"
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+h2 {
+  font-size: 2em;
+  text-align: left;
+  color: black;
+}
+
+
+/* Containers */
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+/* Horizontal lines */
+
+hr {
+		border: 50;
+		border-top: solid 1px #010101;
+		width: 100%;
+   		margin-right: auto;
+   		margin-left: auto;
+		margin: 5em 0 5em;
+	}
+	
+	
+/* Images */
+
+
+img {
+    height: auto;
+    width: 100%; 
+}
+
+.recipe-img {
+	height: auto;
+    width: 50%;
+	poition: center; 
+}
+
+	
+	
